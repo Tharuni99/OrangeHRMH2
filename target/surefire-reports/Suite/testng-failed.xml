@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.testutilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test_01(failed)" verbose="0">
+    <parameter name="password" value="admin123"/>
+    <parameter name="OrangeHrmURL" value="https://opensource-demo.orangehrmlive.com/"/>
+    <parameter name="BrowserURL" value="C:\\Users\\tharu\\Downloads\\chromedriver_win32\\chromedriver.exe"/>
+    <parameter name="userName" value="Admin"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testscripts.TC_ASSIGNLEAVE_001">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="assignleave"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.TC_ASSIGNLEAVE_001 -->
+      <class name="com.qa.testscripts.TC_LEAVELIST_002">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="leavelist"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.TC_LEAVELIST_002 -->
+    </classes>
+  </test> <!-- Test_01(failed) -->
+</suite> <!-- Failed suite [Suite] -->

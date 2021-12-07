@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-16T10:43:35Z" name="Suite" finished-at="2021-09-16T10:44:28Z" duration-ms="52652">
+    <groups>
+    </groups>
+    <test started-at="2021-09-16T10:43:35Z" name="Test_01" finished-at="2021-09-16T10:44:28Z" duration-ms="52652">
+      <class name="com.qa.testscripts.TC_ASSIGNLEAVE_001">
+        <test-method is-config="true" signature="Setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.TC_ASSIGNLEAVE_001@45ca843]" started-at="2021-09-16T10:43:36Z" name="Setup" finished-at="2021-09-16T10:43:57Z" duration-ms="21294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Users\\tharu\\Downloads\\chromedriver_win32\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="assignleave([Ljava.lang.String;)[pri:0, instance:com.qa.testscripts.TC_ASSIGNLEAVE_001@45ca843]" started-at="2021-09-16T10:44:04Z" name="assignleave" data-provider="LoginData" finished-at="2021-09-16T10:44:23Z" duration-ms="18433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@764a0d19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignleave -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testscripts.TC_ASSIGNLEAVE_001@45ca843]" started-at="2021-09-16T10:44:28Z" name="TearDown" finished-at="2021-09-16T10:44:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testscripts.TC_ASSIGNLEAVE_001 -->
+      <class name="com.qa.testscripts.TC_LEAVELIST_002">
+        <test-method signature="leavelist([Ljava.lang.String;)[pri:0, instance:com.qa.testscripts.TC_LEAVELIST_002@11c9af63]" started-at="2021-09-16T10:44:24Z" name="leavelist" data-provider="Sheet2" finished-at="2021-09-16T10:44:28Z" duration-ms="4379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1a99c816]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavelist -->
+      </class> <!-- com.qa.testscripts.TC_LEAVELIST_002 -->
+    </test> <!-- Test_01 -->
+  </suite> <!-- Suite -->
+</testng-results>

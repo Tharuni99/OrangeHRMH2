@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="com.qa.testutilities.Reporting"></listener>
+</listeners>
+    <test thread-count="5" name="Test_01" parallel="none">
+  		<parameter name="OrangeHrmURL" value="https://opensource-demo.orangehrmlive.com/"></parameter>
+		<parameter name="BrowserURL" value="C:\\Users\\tharu\\Downloads\\chromedriver_win32\\chromedriver.exe"></parameter>
+		
+			<parameter name="Browser" value="Chrome"></parameter>
+			  		<parameter name="userName" value="Admin"></parameter>
+			  		  		<parameter name="password" value="admin123"></parameter>
+    <classes>
+    
+        <class name="com.qa.testscripts.TC_ASSIGNLEAVE_001"/>
+        <class name="com.qa.testscripts.TC_LEAVELIST_002"/>    
+   
+    </classes>
+  </test> <!-- Test_01 -->
+</suite> <!-- Suite -->
